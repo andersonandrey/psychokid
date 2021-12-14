@@ -6,41 +6,41 @@ import webbrowser
 import subprocess
 
 #question
-what = input("Что будем делать? (ютуб, стримы, вк, игры, домашка): ")
+what = input("question(answ's): ")
 
 #youtube
-if what == ("ютуб"):
-    webbrowser.open('https://youtube.com', new=2)
+if what == ("answ1"):
+    webbrowser.open('website', new=2)
 
 #twitch
-if what == ("стримы"):
-    webbrowser.open('https://twitch.com', new=2)
+if what == ("answ2"):
+    webbrowser.open('website', new=2)
 
 #vk
-if what == ("вк"):
-    webbrowser.open('https://vk.com', new=2)
+if what == ("answ3"):
+    webbrowser.open('website', new=2)
 
 #games(fun)
-if what == ("игры"):
-    subprocess.Popen('D:\\Steam\\steam.exe')
+if what == ("answ4"):
+    subprocess.Popen('disk(C:/ D:/ E:):\\folder\\folder')
 
 #homework
-if what == ("домашка"):
-    print("Вот список предметов, готов приступать к работе?")
+if what == ("answ5"):
+    print("question")
     #args
-    print("https://gdz.ru/class-9/russkii_yazik/barhudarov-kruchkov-9/ - русский язык")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-9/algebra/kolyagin/ - алгебра")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-9/english/reshebnik-spotlight-9-vaulina-yu-e/ - английский")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-7/geometria/atanasyan-7-9/ - геометрия")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-9/fizika/belaga/ - физика")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-9/biologiya/ponomareva/ - биология")
+    print("website - name of this website(youtube/twitch)")
     
-    print("https://gdz.ru/class-9/literatura/korovina/ - литература")
+    print("website - name of this website(youtube/twitch)")
 
     webbrowser.open('chrome', new=2)
 
