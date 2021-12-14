@@ -28,11 +28,17 @@ if what == ("домашка"):
     print("Вот список предметов, готов приступать к работе?")
     #args
     print("https://gdz.ru/class-9/russkii_yazik/barhudarov-kruchkov-9/ - русский язык")
+    
     print("https://gdz.ru/class-9/algebra/kolyagin/ - алгебра")
+    
     print("https://gdz.ru/class-9/english/reshebnik-spotlight-9-vaulina-yu-e/ - английский")
+    
     print("https://gdz.ru/class-7/geometria/atanasyan-7-9/ - геометрия")
+    
     print("https://gdz.ru/class-9/fizika/belaga/ - физика")
+    
     print("https://gdz.ru/class-9/biologiya/ponomareva/ - биология")
+    
     print("https://gdz.ru/class-9/literatura/korovina/ - литература")
 
     webbrowser.open('chrome', new=2)
