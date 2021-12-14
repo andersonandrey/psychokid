@@ -3,7 +3,7 @@
 eng:program code for easy opening of sites/applications by selecting these applications / sites (python), you can choose your own site/ program by replacing the name of the site / program and changing the desired link /path to the site/file. (if anything, a file is a file located on your computer).
 ##
 rus:код программы для удобного открытия сайтов/приложений путём выбора этих приложений/сайтов(python)
-вы моможете выбрать собственный сайт/программу, заменив название сайта/программы и изменив нужную ссылку/путь к сайту/файлу. (если что, файл - файл, находящийся на вашем компьютере).
+вы моможете выбрать собственный сайт/программу, заменив название сайта/программы и изменив нужную ссылку/путь к сайту/файлу. (если что, файл - файл, находящийся на вашем компьютере):
 
 import webbrowser
 import subprocess
